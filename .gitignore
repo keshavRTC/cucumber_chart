@@ -1,0 +1,49 @@
+# === Java ===
+*.class
+*.log
+*.ctxt
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# === Maven ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# === OS/System Files ===
+.DS_Store
+Thumbs.db
+
+# === Cucumber ===
+cucumber-reports.html
+cucumber.json
+cucumber-html-report/
+rerun.txt
+
+# === Test Reports ===
+*.xml
+test-output/
+surefire-reports/
+failed-tests.log
+
+# === Logs ===
+logs/
+*.log
+
+# === Generated Test Sources ===
+generated-test-sources/
+generated-sources/
+maven-status/
+
+# === Playground Specific ===
+playground-anychart/

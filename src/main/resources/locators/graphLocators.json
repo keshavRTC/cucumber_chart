@@ -1,0 +1,22 @@
+{
+  "iframeLocator": [
+    "//div[contains(@id,'popular-samples')]//iframe[${index}]",
+    "//div[contains(@class,'sample-box')][${index}]//iframe"
+  ],
+  "Graphs": [
+    {
+      "name": "pieChart",
+      "index": 1,
+      "svgSlices": {
+        "dynamicPrefix": "ac_path_",
+        "dynamicSuffix": "${suffix}",
+        "locators": [
+          "//*[starts-with(@id,'ac_path_') and contains(@id,'_${suffix}')]"
+        ]
+      },
+      "percentageTextLocators": [
+        "//*[contains(text(),'${percentage}')]"
+      ]
+    }
+  ]
+}
