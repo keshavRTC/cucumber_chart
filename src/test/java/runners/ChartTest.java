@@ -15,6 +15,6 @@ import io.cucumber.junit.CucumberOptions;
         },
         monochrome = true
 )
-public class JUnitCucumberRunner {
+public class ChartTest {
 
 }

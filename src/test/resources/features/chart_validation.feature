@@ -1,6 +1,7 @@
 Feature: Validate Pie Chart Slices
 
   Scenario Outline: Validate pie chart slices percentage on click
+    Given I am on the Playground AnyChart page
     When I switch to "pieChart"
     And I click slice with suffix "<suffix>"
     Then I should see percentage "<percentage>" in chart
